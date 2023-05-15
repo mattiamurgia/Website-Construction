@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding:0;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'ClashDisplay-Variable';
+    src: url('Font/ClashDisplay-Variable.woff2') format('woff2'),
+            url('Font/ClashDisplay-Variable.woff') format('woff');
+            font-weight: 200 700;
+            font-display: swap;
+            font-style: normal;
+}
+
+@font-face {
+    font-family: 'ClashDisplay-Regular';
+    src: url('Font/ClashDisplay-Regular.woff2') format('woff2'),
+            url('Font/ClashDisplay-Regular.woff') format('woff');
+            font-weight: 400;
+            font-display: swap;
+            font-style: normal;
+}
+
+@font-face {
+    font-family: 'ClashDisplay-Medium';
+    src: url('Font/ClashDisplay-Medium.woff2') format('woff2'),
+        url('Font/ClashDisplay-Medium.woff') format('woff');
+        font-weight: 500;
+        font-display: swap;
+        font-style: normal;
+}
+
+
+/* GENERAL RULES  START     */
+body {
+    background-color:#f4f6f8;
+    font-family: 'ClashDisplay-Medium';
+    font-weight: bold;
+    color: #201f1f;
+    overflow-x: hidden;
+}
+
+.btn {
+    font-family: 'ClashDisplay-Regular'; 
+    font-weight: bold;
+    background-color: #ffb900;
+    color: #201f1f;
+}
+
+span {
+    color: #ffb900;
+}
+/* GENERAL RULES FINISH */
+
+
+/* NAVBAR START */
+.fs-4 {
+    font-family:'ClashDisplay-Variable'; 
+    font-weight:700; 
+    font-style: oblique;
+}
+
+.navbar{
+        background-color: rgb(191, 225, 238);
+        padding: 1px;
+}
+/* NAVBAR FINISH */
+
+/* <!-- CAROSELLO START --> */
+.carousel-inner > .carousel-item {
+    min-height: 80vh;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 3%;
+}
+
+.box__caption--features {
+    background-color: #201f1f;
+    width: 200px;
+    border-radius: 10px;
+}
+/* <!-- CAROSELLO FINISH --> */
+
+
+/* <!-- FIRST SECTION START --> */
+.card-features > img, .card { 
+    border:solid 2px #201f1f;
+}
+
+.text-descriptions {
+    line-height: 2;
+}
+
+.dimension-logo__card {
+    max-width: 3.5em;
+}
+
+.rounded {
+    width: 70%;
+}
+/* <!-- FIRST SECTION FINISH --> */
+
+
+/* <!-- SECOND SECTION START --> */
+.user-image img {
+    width: 12em;
+    height: 12em;
+    border: solid 5px #201f1f;
+}
+
+.text-team h1 {
+    font-family: 'ClashDisplay-Medium';
+    font-weight: bold;
+}
+
+.bg-body__container {
+    border-radius: 5px;
+    border: solid 2px #201f1f;
+    margin-bottom: 10%;
+}
+
+.first__card {
+    background-color: #cc424a;
+}
+
+.second__card {
+    background-color: #ffca8f;
+}
+
+.third__card {
+    background-color: #01a6eb;
+}
+
+.badge {
+    background-color: #fff;
+    color: #201f1f;
+}
+/* <!-- SECOND SECTION FINISH --> */
+
+
+/* <!-- THIRD SECTION START --> */
+.img-thumbnail {
+    border: solid 2px #201f1f;
+}
+
+#realizzazioni {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: solid 2px #201f1f;
+}
+
+.list__icon li {
+    list-style: none;
+    font-size: 21px;
+    padding: 2%;
+}
+
+li>i:hover {
+    color: #ffb900;
+    transform: scale(1.5);
+}
+/* <!-- THIRD SECTION FINISH --> */
+
+
+/* <!-- FOURTH SECTION START --> */
+.form-control {
+    border: solid 2px #201f1f;
+}
+/* <!-- FOURTH SECTION FINISH --> */
+
+
+/* <!-- FIVE SECTION START --> */
+.link-footer li>a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.link-footer li {
+    list-style-type: none;
+}
+
+.social-footer a {
+    color: #201f1f;
+}
+
+.fa-facebook:hover {
+    color: #1877f2
+}
+
+.fa-instagram:hover {
+    color: #e1306c
+}
+
+.fa-linkedin:hover {
+    color: #0077b5
+}
+
+.fa-whatsapp:hover {
+    color: #25d366
+}
+/* <!-- FIVE SECTION FINISH --> */
+
